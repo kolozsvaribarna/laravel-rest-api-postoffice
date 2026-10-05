@@ -1,0 +1,27 @@
+info:
+  name: post cities
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/cities
+  body:
+    type: json
+    data: |-
+      {
+        "name":"Aprajafalva",
+        "county_id":"4",
+        "population":"420",
+        "zip_code":"4444"
+      }
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

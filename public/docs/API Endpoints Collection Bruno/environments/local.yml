@@ -1,0 +1,5 @@
+name: local
+variables:
+  - name: token
+    value: 10|CE8wOfnH01nkG42KDP3RZ2UykyJoCShiIamsyWW833bd827f
+    description: ""

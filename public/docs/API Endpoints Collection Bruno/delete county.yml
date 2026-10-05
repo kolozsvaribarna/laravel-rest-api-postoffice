@@ -1,0 +1,18 @@
+info:
+  name: delete county
+  type: http
+  seq: 6
+
+http:
+  method: DELETE
+  url: http://127.0.0.1:8000/api/counties/21
+  auth:
+    type: bearer
+    token: "{{token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

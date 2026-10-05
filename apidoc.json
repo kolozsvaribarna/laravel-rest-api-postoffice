@@ -1,0 +1,7 @@
+{
+    "name": "Laravel REST api",
+    "version": "1.0.0",
+    "description": "REST API documentation",
+    "title": "Laravel REST api for postoffice",
+    "url": "http://localhost:8000/api"
+}
